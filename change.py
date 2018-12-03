@@ -35,6 +35,6 @@ def main():
 
     print()
 
-    print("The total value of your change is", total)
+    print("The total value of your change is ${0:0.2f}".format(total))
 
 main()
